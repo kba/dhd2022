@@ -80,7 +80,10 @@ Schließlich führen wir den OCR-D Calamari Prozessor aus für die Texterkennung
 ocrd-calamari-recognize -I OCR-D-SEG-KRAKEN -O OCR-D-OCR-CALAMARI
 ```
 
-## Demo 4 - Evaluation mit dinglehopper und ocrd-segment-evaluate
+## Demo 4 - In browse-ocrd betrachten
+
+![](screenshots/browse-ocrd-02.png)
+![](screenshots/browse-ocrd-03.png)
 
 ## Demo 4 - Evaluation mit dinglehopper und ocrd-segment-evaluate
 
