@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="FILE_0001_OCR-D-SEG-KRAKEN">
+    <pc:Metadata>
+        <pc:Creator>OCR-D/core 2.30.0</pc:Creator>
+        <pc:Created>2022-03-07T16:51:47.503302</pc:Created>
+        <pc:LastChange>2022-03-07T16:51:47.503302</pc:LastChange>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/binarization" value="ocrd-cis-ocropy-binarize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="ocropy" type="method"/>
+                <pc:Label value="0.5" type="threshold"/>
+                <pc:Label value="False" type="grayscale"/>
+                <pc:Label value="0.0" type="maxskew"/>
+                <pc:Label value="0" type="noise_maxsize"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="page" type="level-of-operation"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.1.5" type="ocrd-cis-ocropy-binarize"/>
+                <pc:Label value="2.30.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-kraken-segment">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="horizontal-lr" type="text_direction"/>
+                <pc:Label value="2" type="maxcolseps"/>
+                <pc:Label value="0" type="scale"/>
+                <pc:Label value="False" type="black_colseps"/>
+                <pc:Label value="True" type="remove_hlines"/>
+                <pc:Label value="blla.mlmodel" type="blla_model"/>
+                <pc:Label value="cpu" type="device"/>
+                <pc:Label value="False" type="use_legacy"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.1.2" type="ocrd-kraken-segment"/>
+                <pc:Label value="2.30.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+    </pc:Metadata>
+    <pc:Page imageFilename="DEFAULT/FILE_0001_DEFAULT.jpg" imageWidth="1485" imageHeight="2124" orientation="0.">
+        <pc:AlternativeImage filename="OCR-D-BIN/FILE_0001_OCR-D-BIN.IMG-BIN.png" comments=",binarized"/>
+        <pc:TextRegion id="region_1">
+            <pc:Coords points="56,785 69,840 49,847 35,828 56,785"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_2">
+            <pc:Coords points="56,736 62,736 62,741 56,741 56,736"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_3">
+            <pc:Coords points="63,269 76,276 76,302 56,295 63,269"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_4">
+            <pc:Coords points="56,49 90,49 111,90 42,104 56,49"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_5">
+            <pc:Coords points="99,198 111,198 111,210 99,210 99,198"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_6">
+            <pc:Coords points="175,283 212,240 196,196 141,203 134,184 196,177 170,134 212,120 338,134 345,217 295,233 352,254 338,330 184,330 168,288 148,302 141,276 175,283"/>
+            <pc:TextLine id="region_6_line_2">
+                <pc:Coords points="209,223 207,152 256,139 256,139 256,139 258,139 258,139 260,139 260,139 260,139 262,139 262,139 262,141 274,153 317,155 317,223 315,237 207,231"/>
+                <pc:Baseline points="209,223 317,223"/>
+            </pc:TextLine>
+            <pc:TextLine id="region_6_line_3">
+                <pc:Coords points="196,311 194,240 311,237 313,313 310,330 193,323"/>
+                <pc:Baseline points="196,311 313,313"/>
+            </pc:TextLine>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_7">
+            <pc:Coords points="395,231 375,224 375,162 395,169 395,231"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_8">
+            <pc:Coords points="749,1246 761,1246 761,1258 756,1258 749,1246"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_9">
+            <pc:Coords points="1435,1449 1430,1449 1430,1430 1435,1430 1435,1449"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_10">
+            <pc:Coords points="1435,1364 1422,1343 1422,1196 1449,1274 1435,1364"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_11">
+            <pc:Coords points="56,1281 62,1281 62,1308 42,1293 56,1281"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_12">
+            <pc:Coords points="49,1458 62,1458 62,1499 54,1506 49,1458"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_13">
+            <pc:Coords points="56,1161 62,1161 62,1187 56,1187 56,1161"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_14">
+            <pc:Coords points="56,1253 62,1253 62,1258 56,1258 56,1253"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_15">
+            <pc:Coords points="49,1699 69,1699 69,1824 42,1817 63,1761 49,1699"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_16">
+            <pc:Coords points="1329,2051 1316,2051 1316,2046 1329,2046 1329,2051"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_17">
+            <pc:Coords points="1371,2065 1345,2058 1345,2031 1371,2039 1371,2065"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_18">
+            <pc:Coords points="1387,2065 1387,2024 1408,1982 1435,2030 1387,2065"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_19">
+            <pc:Coords points="1422,1619 1415,1529 1430,1465 1442,1584 1422,1619"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_line_1">
+            <pc:Coords points="49,92 44,65 83,53 90,88 92,102 54,129"/>
+            <pc:TextLine id="region_line_1_line">
+                <pc:Coords points="49,92 44,65 83,53 90,88 92,102 54,129"/>
+                <pc:Baseline points="49,92 90,88"/>
+            </pc:TextLine>
+        </pc:TextRegion>
+    </pc:Page>
+</pc:PcGts>

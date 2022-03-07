@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="FILE_0019_OCR-D-OCR-TESS">
+    <pc:Metadata>
+        <pc:Creator>OCR-D/core 2.30.0</pc:Creator>
+        <pc:Created>2022-03-07T17:26:52.464102</pc:Created>
+        <pc:LastChange>2022-03-07T17:26:52.464102</pc:LastChange>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-tesserocr-recognize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="False" type="find_tables"/>
+                <pc:Label value="word" type="textequiv_level"/>
+                <pc:Label value="region" type="segmentation_level"/>
+                <pc:Label value="Fraktur" type="model"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="0" type="padding"/>
+                <pc:Label value="False" type="overwrite_segments"/>
+                <pc:Label value="True" type="overwrite_text"/>
+                <pc:Label value="False" type="shrink_polygons"/>
+                <pc:Label value="False" type="block_polygons"/>
+                <pc:Label value="False" type="find_staves"/>
+                <pc:Label value="False" type="sparse_text"/>
+                <pc:Label value="False" type="raw_lines"/>
+                <pc:Label value="" type="char_whitelist"/>
+                <pc:Label value="" type="char_blacklist"/>
+                <pc:Label value="" type="char_unblacklist"/>
+                <pc:Label value="{}" type="tesseract_parameters"/>
+                <pc:Label value="{}" type="xpath_parameters"/>
+                <pc:Label value="{}" type="xpath_model"/>
+                <pc:Label value="False" type="auto_model"/>
+                <pc:Label value="DEFAULT" type="oem"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.13.6 (tesseract 5.0.1)" type="ocrd-tesserocr-recognize"/>
+                <pc:Label value="2.30.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+    </pc:Metadata>
+    <pc:Page imageFilename="DEFAULT/FILE_0019_DEFAULT.jpg" imageWidth="1461" imageHeight="2112">
+        <pc:AlternativeImage filename="OCR-D-OCR-TESS/FILE_0019_OCR-D-OCR-TESS.IMG-BIN.png" comments=",binarized,clipped"/>
+        <pc:ReadingOrder>
+            <pc:OrderedGroup id="reading-order">
+                <pc:RegionRefIndexed index="5" regionRef="region0005"/>
+                <pc:RegionRefIndexed index="6" regionRef="region0006"/>
+                <pc:RegionRefIndexed index="7" regionRef="region0007"/>
+            </pc:OrderedGroup>
+        </pc:ReadingOrder>
+        <pc:TextRegion id="region0005" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="358,1817 1238,1817 1238,1966 358,1966"/>
+            <pc:TextLine id="region0005_line0000">
+                <pc:Coords points="358,1817 1238,1817 1238,1966 358,1966"/>
+                <pc:Word id="region0005_line0000_word0000">
+                    <pc:Coords points="358,1817 825,1817 825,1965 358,1965"/>
+                    <pc:TextEquiv conf="0.428885650634766">
+                        <pc:Unicode>ID</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0005_line0000_word0001">
+                    <pc:Coords points="1119,1888 1119,1966 1238,1966 1238,1888"/>
+                    <pc:TextEquiv conf="0.44701229095459">
+                        <pc:Unicode>1,</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.437948970794678">
+                    <pc:Unicode>ID 1,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.437948970794678">
+                <pc:Unicode>ID 1,</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0006" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="363,1966 734,1966 734,2012 363,2012"/>
+            <pc:TextLine id="region0006_line0000">
+                <pc:Coords points="363,1966 734,1966 734,2012 363,2012"/>
+                <pc:Word id="region0006_line0000_word0000">
+                    <pc:Coords points="363,1966 734,1966 734,2012 363,2012"/>
+                    <pc:TextEquiv conf="0.90730598449707">
+                        <pc:Unicode>N12&lt;140996825010</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.90730598449707">
+                    <pc:Unicode>N12&lt;140996825010</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.90730598449707">
+                <pc:Unicode>N12&lt;140996825010</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:ImageRegion id="region0007" orientation="0.">
+            <pc:Coords points="1332,0 1461,0 1461,2112 1332,2112"/>
+        </pc:ImageRegion>
+        <pc:SeparatorRegion id="region0000">
+            <pc:Coords points="856,1663 1220,1663 1220,1671 856,1671"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0001">
+            <pc:Coords points="856,1664 1220,1664 1220,1672 856,1672"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0002">
+            <pc:Coords points="856,1663 1220,1663 1220,1672 856,1672"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0003">
+            <pc:Coords points="1219,1662 1226,1662 1226,1945 1219,1945"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0004">
+            <pc:Coords points="906,1939 1229,1939 1229,1948 906,1948"/>
+        </pc:SeparatorRegion>
+    </pc:Page>
+</pc:PcGts>
