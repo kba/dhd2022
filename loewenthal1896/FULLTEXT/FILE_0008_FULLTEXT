@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+<Description>
+<MeasurementUnit>pixel</MeasurementUnit>
+<OCRProcessing ID="IdOcr"><ocrProcessingStep><processingDateTime>2017-03-22</processingDateTime><processingSoftware><softwareCreator>ABBYY</softwareCreator><softwareName>ABBYY FineReader Engine</softwareName><softwareVersion>11</softwareVersion></processingSoftware></ocrProcessingStep></OCRProcessing>
+</Description>
+<Styles><TextStyle ID="font0" FONTFAMILY="Arial" FONTSIZE="10"/><TextStyle ID="font1" FONTFAMILY="Arial" FONTSIZE="12"/><TextStyle ID="font2" FONTFAMILY="Arial" FONTSIZE="13"/>
+</Styles>
+<Layout>
+<Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="1959" WIDTH="1323">
+<TopMargin HEIGHT="934" WIDTH="1323" VPOS="0" HPOS="0">
+<TextBlock ID="Page1_Block1" HEIGHT="88" WIDTH="468" VPOS="204" HPOS="145" language="de">
+<TextLine HEIGHT="76" WIDTH="337" VPOS="210" HPOS="151"><String STYLE="italics" STYLEREFS="font2" WC="0.6060000062" CONTENT="&apos;^rw\" HEIGHT="72" WIDTH="165" VPOS="214" HPOS="151"/><SP WIDTH="96" VPOS="210" HPOS="317"/><String STYLEREFS="font0" WC="1." CONTENT="^" HEIGHT="72" WIDTH="31" VPOS="210" HPOS="414"/><SP WIDTH="10" VPOS="210" HPOS="446"/><String STYLEREFS="font0" WC="1." CONTENT="^" HEIGHT="64" WIDTH="31" VPOS="219" HPOS="457"/></TextLine>
+</TextBlock>
+</TopMargin>
+<LeftMargin HEIGHT="212" WIDTH="546" VPOS="934" HPOS="0">
+</LeftMargin>
+<RightMargin HEIGHT="212" WIDTH="447" VPOS="934" HPOS="876">
+</RightMargin>
+<BottomMargin HEIGHT="813" WIDTH="1323" VPOS="1146" HPOS="0">
+</BottomMargin>
+<PrintSpace HEIGHT="212" WIDTH="330" VPOS="934" HPOS="546">
+<TextBlock ID="Page1_Block2" HEIGHT="212" WIDTH="330" VPOS="934" HPOS="546" language="de"><Shape><Polygon POINTS="640,934 754,934 754,1002 876,1002 876,1078 860,1078 860,1146 574,1146 574,1078 546,1078 546,1002 640,1002 640,934"/></Shape>
+<TextLine HEIGHT="46" WIDTH="64" VPOS="947" HPOS="673"><String STYLEREFS="font2" WC="7.00000003e-002" CONTENT="Ex" HEIGHT="46" WIDTH="64" VPOS="947" HPOS="673"/></TextLine>
+<TextLine HEIGHT="76" WIDTH="283" VPOS="1070" HPOS="574"><String STYLE="subscript bold" STYLEREFS="font1" WC="0." CONTENT="v" HEIGHT="23" WIDTH="17" VPOS="1123" HPOS="574"/><String STYLE="bold" STYLEREFS="font1" WC="0.275000006" CONTENT="Beiokirf" HEIGHT="71" WIDTH="235" VPOS="1070" HPOS="595"/><String STYLE="subscript bold" STYLEREFS="font1" WC="0.3600000143" CONTENT=";" HEIGHT="24" WIDTH="4" VPOS="1108" HPOS="839"/><String STYLE="bold" STYLEREFS="font1" WC="1." CONTENT="&apos;" HEIGHT="12" WIDTH="7" VPOS="1099" HPOS="850"/></TextLine>
+</TextBlock>
+</PrintSpace>
+</Page>
+</Layout>
+</alto>
