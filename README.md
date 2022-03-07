@@ -46,7 +46,7 @@ Dann können wir uns diesen Workspace mit browse-ocrd ansehen
 browse-ocrd mets.xml
 ```
 
-![](screenshot/browse-ocrd-01.png)
+![](screenshots/browse-ocrd-01.png)
 
 ## Demo 2 - Binarisierung, Segmentierung, Erkennung mit Calamari
 
