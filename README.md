@@ -53,7 +53,13 @@ browse-ocrd mets.xml
 Für die Binarisierung verwenden wir den `ocrd-cis-ocropy-binarize` Prozessor:
 
 ```sh
-ocrd-ci-ocropy
+ocrd-ci-ocropy-binarize -I DEFAULT -O OCR-D-BIN
+```
+
+Anschließend nutzen wir kraken für die Segmentierung:
+
+```sh
+```
 
 ## Tools
 
