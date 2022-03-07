@@ -46,14 +46,20 @@ Dann können wir uns diesen Workspace mit browse-ocrd ansehen
 browse-ocrd mets.xml
 ```
 
-![](screenshot/browse-ocrd-01.png)
+![](screenshots/browse-ocrd-01.png)
 
 ## Demo 2 - Binarisierung, Segmentierung, Erkennung mit Calamari
 
 Für die Binarisierung verwenden wir den `ocrd-cis-ocropy-binarize` Prozessor:
 
 ```sh
-ocrd-ci-ocropy
+ocrd-ci-ocropy-binarize -I DEFAULT -O OCR-D-BIN
+```
+
+Anschließend nutzen wir kraken für die Segmentierung:
+
+```sh
+```
 
 ## Tools
 
