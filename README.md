@@ -30,12 +30,10 @@ ocrd workspace remove-group -kr PRESENTATION
 ```
 
 Die hochauflösendsten Bilder, die in der METS referenziert sind, sind in der
-`DEFAULT` Dateigruppe. Um mit der bestehenden OCR zu vergleichen, laden wir
-auch die `FULLTEXT` Dateigruppe herunter:
+`DEFAULT` Dateigruppe.
 
 ```sh
 ocrd -l DEBUG workspace find --file-grp DEFAULT --download
-ocrd -l DEBUG workspace find --file-grp FULLTEXT --download
 ```
 
 (Mit der `-l/--log-level DEBUG`-Option schalten wir detailliertes Logging ein, um den Fortschritt des Downloads beobachten zu können)
@@ -48,25 +46,52 @@ browse-ocrd mets.xml
 
 ![](screenshots/browse-ocrd-01.png)
 
-## Demo 2 - Binarisierung, Segmentierung, Erkennung mit Calamari
+## Demo 2: Minimalworkflow mit tesseract
+
+Der OCR-D Prozessor für tesseract kann optional einen kompletten OCR-Workflow durchführen, vergleichbar mit dem Aufruf des `tesseract` Kommandozeilentools.
+
+```sh
+ocrd-tesserocr-recognize -I DEFAULT -O OCR-D-OCR-TESS -P find_tables false -P textequiv_level word -P segmentation_level region -P model Fraktur
+```
+
+## Demo 3 - Binarisierung, Segmentierung, Erkennung mit Calamari
 
 Für die Binarisierung verwenden wir den `ocrd-cis-ocropy-binarize` Prozessor:
 
 ```sh
-ocrd-ci-ocropy-binarize -I DEFAULT -O OCR-D-BIN
+ocrd-cis-ocropy-binarize -I DEFAULT -O OCR-D-BIN
 ```
 
-Anschließend nutzen wir kraken für die Segmentierung:
+Anschließend nutzen wir kraken für die Segmentierung. Dafür benötigen wir das vortrainierte Baseline-Segmentierungsmodell, das wir mit `ocrd resmgr`, dem OCR-D-Resourcenmanager, herunterladen können:
 
 ```sh
+ocrd resmgr download ocrd-kraken-segment blla.mlmodel
 ```
+
+Und den eigentlichen Prozessoraufruf:
+
+```sh
+ocrd-kraken-segment -I OCR-D-BIN -O OCR-D-SEG-KRAKEN
+```
+
+Schließlich führen wir den OCR-D Calamari Prozessor aus für die Texterkennung, mit dem `qurator-gt4histocr-1.0` Modell, das wir auch über den Resource Manager installieren:
+
+```sh
+ocrd-calamari-recognize -I OCR-D-SEG-KRAKEN -O OCR-D-OCR-CALAMARI
+```
+
+## Demo 4 - Evaluation mit dinglehopper und ocrd-segment-evaluate
+
+## Demo 4 - Evaluation mit dinglehopper und ocrd-segment-evaluate
+
+Abschließend wollen wir die Ergebnisse des Durchlaufs mit T
 
 ## Tools
 
 * [OCR-D/core](https://github.com/OCR-D/core)
 * [OCR-D/ocrd\_calamari](https://github.com/OCR-D/ocrd_calamari)
 * [OCR-D/ocrd\_tesserocr](https://github.com/OCR-D/ocrd_tesserocr)
-* [OCR-D/ocrd\_fileformat](https://github.com/OCR-D/ocrd_fileformat)
-* [cisocrgroup/ocrd\_cis](https://github.com/OCR-D/ocrd_calamari)
+* [kba/ocrmultieval](https://github.com/kba/ocrmultieval)
+* [cisocrgroup/ocrd\_cis](https://github.com/OCR-D/ocrd_cis)
 * [browse-ocrd](https://github.com/hnesk/browse-ocrd)
 
