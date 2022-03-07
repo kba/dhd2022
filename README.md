@@ -77,7 +77,11 @@ ocrd-kraken-segment -I OCR-D-BIN -O OCR-D-SEG-KRAKEN
 Schließlich führen wir den OCR-D Calamari Prozessor aus für die Texterkennung, mit dem `qurator-gt4histocr-1.0` Modell, das wir auch über den Resource Manager installieren:
 
 ```sh
-ocrd-calamari-recognize -I OCR-D-SEG-KRAKEN -O OCR-D-OCR-CALAMARI
+ocrd resmgr download ocrd-calamari-recognize qurator-gt4histocr-1.0
+```
+
+```sh
+ocrd-calamari-recognize -I OCR-D-SEG-KRAKEN -O OCR-D-OCR-CALAMARI -P checkpoint_dir qurator-gt4histocr-1.0
 ```
 
 ## Demo 4 - In browse-ocrd betrachten
