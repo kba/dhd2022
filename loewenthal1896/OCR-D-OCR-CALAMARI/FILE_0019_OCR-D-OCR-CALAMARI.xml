@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="FILE_0019_OCR-D-OCR-CALAMARI">
+    <pc:Metadata>
+        <pc:Creator>OCR-D/core 2.30.0</pc:Creator>
+        <pc:Created>2022-03-07T16:53:50.789363</pc:Created>
+        <pc:LastChange>2022-03-07T16:53:50.789363</pc:LastChange>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/binarization" value="ocrd-cis-ocropy-binarize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="ocropy" type="method"/>
+                <pc:Label value="0.5" type="threshold"/>
+                <pc:Label value="False" type="grayscale"/>
+                <pc:Label value="0.0" type="maxskew"/>
+                <pc:Label value="0" type="noise_maxsize"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="page" type="level-of-operation"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.1.5" type="ocrd-cis-ocropy-binarize"/>
+                <pc:Label value="2.30.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-kraken-segment">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="horizontal-lr" type="text_direction"/>
+                <pc:Label value="2" type="maxcolseps"/>
+                <pc:Label value="0" type="scale"/>
+                <pc:Label value="False" type="black_colseps"/>
+                <pc:Label value="True" type="remove_hlines"/>
+                <pc:Label value="blla.mlmodel" type="blla_model"/>
+                <pc:Label value="cpu" type="device"/>
+                <pc:Label value="False" type="use_legacy"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.1.2" type="ocrd-kraken-segment"/>
+                <pc:Label value="2.30.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="recognition/text-recognition" value="ocrd-calamari-recognize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="qurator-gt4histocr-1.0" type="checkpoint_dir"/>
+                <pc:Label value="confidence_voter_default_ctc" type="voter"/>
+                <pc:Label value="line" type="textequiv_level"/>
+                <pc:Label value="0.001" type="glyph_conf_cutoff"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="1.0.3 (calamari 1.0.5, tensorflow 2.5.0)" type="ocrd-calamari-recognize"/>
+                <pc:Label value="2.30.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+    </pc:Metadata>
+    <pc:Page imageFilename="DEFAULT/FILE_0019_DEFAULT.jpg" imageWidth="1461" imageHeight="2112" orientation="0.">
+        <pc:AlternativeImage filename="OCR-D-BIN/FILE_0019_OCR-D-BIN.IMG-BIN.png" comments=",binarized"/>
+        <pc:TextRegion id="region_1">
+            <pc:Coords points="21,436 47,443 40,484 21,469 21,436"/>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_2">
+            <pc:Coords points="556,1809 631,1809 646,1835 556,1856 556,1809"/>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_3">
+            <pc:Coords points="697,1809 702,1835 668,1828 675,1816 697,1809"/>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_4">
+            <pc:Coords points="725,1858 728,1858 728,1870 725,1870 725,1858"/>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_5">
+            <pc:Coords points="154,1985 174,1985 174,2004 154,2004 154,1985"/>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_6">
+            <pc:Coords points="718,1879 735,1879 735,1884 718,1884 718,1879"/>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_7">
+            <pc:Coords points="758,1858 834,1858 834,1870 751,1892 758,1858"/>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_8">
+            <pc:Coords points="352,2018 352,1865 506,1914 1101,1914 1101,1842 885,1842 892,1788 983,1774 1115,1774 1144,1906 1284,1914 1284,1962 871,1955 758,1976 742,2018 352,2018"/>
+            <pc:TextLine id="region_8_line_3">
+                <pc:Coords points="352,1965 348,1960 825,1955 829,1955 829,1962 352,1972"/>
+                <pc:Baseline points="352,1965 829,1955"/>
+                <pc:TextEquiv conf="0.713109374046326">
+                    <pc:Unicode>—</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region_8_line_4">
+                <pc:Coords points="352,2013 348,2008 735,2004 739,2004 737,2011 352,2020"/>
+                <pc:Baseline points="352,2013 739,2004"/>
+                <pc:TextEquiv conf="0.798871695995331">
+                    <pc:Unicode>— —</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region_8_line_5">
+                <pc:Coords points="897,1835 892,1800 931,1782 931,1782 932,1782 932,1782 932,1782 934,1782 934,1782 934,1782 936,1782 962,1791 994,1781 994,1781 996,1781 996,1781 998,1781 998,1781 998,1781 999,1781 999,1781 1001,1781 1001,1781 1001,1782 1013,1791 1013,1793 1019,1791 1061,1777 1063,1777 1063,1777 1063,1777 1064,1777 1064,1777 1115,1786 1119,1828 1119,1837 897,1844"/>
+                <pc:Baseline points="897,1835 1119,1828"/>
+                <pc:TextEquiv conf="0.714217722415924">
+                    <pc:Unicode>uni 2li</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>—
+— —
+uni 2li</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_9">
+            <pc:Coords points="1144,1689 1165,1708 1123,1758 800,1744 800,1675 1144,1689"/>
+            <pc:TextLine id="region_9_line_2">
+                <pc:Coords points="800,1730 800,1673 841,1682 862,1672 873,1668 873,1668 874,1668 874,1668 874,1668 876,1668 876,1668 876,1668 878,1668 878,1668 880,1668 880,1668 885,1672 899,1684 996,1684 1006,1672 1008,1672 1008,1670 1008,1670 1010,1670 1010,1670 1010,1670 1012,1670 1012,1670 1013,1670 1151,1672 1151,1730 1149,1738 799,1735"/>
+                <pc:Baseline points="800,1730 1151,1730"/>
+                <pc:TextEquiv conf="0.849676668643951">
+                    <pc:Unicode>S Essuorung</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>S Essuorung</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_10">
+            <pc:Coords points="1270,209 1167,209 1152,91 1249,91 1270,209"/>
+            <pc:TextLine id="region_10_line_6">
+                <pc:Coords points="1191,204 1191,179 1255,181 1255,204 1253,216 1189,214"/>
+                <pc:Baseline points="1191,204 1255,204"/>
+                <pc:TextEquiv conf="0.48366442322731">
+                    <pc:Unicode>.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_11">
+            <pc:Coords points="1082,1865 1094,1865 1094,1870 1082,1870 1082,1865"/>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region_line_1">
+            <pc:Coords points="538,1851 533,1807 624,1800 630,1848 628,1860 538,1863"/>
+            <pc:TextLine id="region_line_1_line">
+                <pc:Coords points="538,1851 533,1807 624,1800 630,1848 628,1860 538,1863"/>
+                <pc:Baseline points="538,1851 630,1848"/>
+                <pc:TextEquiv conf="0.629746675491333">
+                    <pc:Unicode>Ss</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>Ss</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+    </pc:Page>
+</pc:PcGts>
