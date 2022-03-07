@@ -84,10 +84,7 @@ ocrd-calamari-recognize -I OCR-D-SEG-KRAKEN -O OCR-D-OCR-CALAMARI
 
 ![](screenshots/browse-ocrd-02.png)
 ![](screenshots/browse-ocrd-03.png)
-
-## Demo 4 - Evaluation mit dinglehopper und ocrd-segment-evaluate
-
-Abschließend wollen wir die Ergebnisse des Durchlaufs mit T
+![](screenshots/browse-ocrd-04.png)
 
 ## Tools
 
