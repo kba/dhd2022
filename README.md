@@ -92,7 +92,7 @@ ocrd-calamari-recognize -I OCR-D-SEG-KRAKEN -O OCR-D-OCR-CALAMARI -P checkpoint_
 
 ## Demo 5 - Evaluation
 
-Wir haben zu diesem Werk keine Ground Truth, deswegen können wir keine sinnvolle Evaluation machen. Wir können allerdings die Calmari-Erkennung mit der tesseract-Erkennung vergleichen -- **der Aufruf ist nur für als Beispiel gedacht, die Aussagekradft ist gering, die erste Dateigruppe im `-I` Parameter sollte die GT sein.**
+Wir haben zu diesem Werk keine Ground Truth, deswegen können wir keine sinnvolle Evaluation machen. Wir können allerdings die Calmari-Erkennung mit der tesseract-Erkennung vergleichen -- **der Aufruf ist nur für als Beispiel gedacht, die Aussagekraft ist gering, die erste Dateigruppe im `-I` Parameter muss die GT sein.**
 
 ```sh
 ocrd-ocrmultieval -I OCR-D-OCR-CALAMARI,OCR-D-OCR-TESS -O EVAL-OCREVALUATION-CALAMARI-TESS -P backend ocrevalUAtion
@@ -101,10 +101,11 @@ ocrd-ocrmultieval -I OCR-D-OCR-CALAMARI,OCR-D-OCR-TESS -O EVAL-OCRDSEGMENTEVALUA
 
 ## Tools
 
+* [OCR-D/ocrd_all](https://github.com/OCR-D/ocrd_all)
 * [OCR-D/core](https://github.com/OCR-D/core)
 * [OCR-D/ocrd\_calamari](https://github.com/OCR-D/ocrd_calamari)
 * [OCR-D/ocrd\_tesserocr](https://github.com/OCR-D/ocrd_tesserocr)
 * [kba/ocrmultieval](https://github.com/kba/ocrmultieval)
 * [cisocrgroup/ocrd\_cis](https://github.com/OCR-D/ocrd_cis)
-* [browse-ocrd](https://github.com/hnesk/browse-ocrd)
+* [hnesk/browse-ocrd](https://github.com/hnesk/browse-ocrd)
 
