@@ -47,6 +47,20 @@
       <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"checkpoint_dir": "qurator-gt4histocr-1.0", "voter": "confidence_voter_default_ctc", "textequiv_level": "line", "glyph_conf_cutoff": 0.001}</mets:note>
       <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
     </mets:agent>
+    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="recognition/text-recognition">
+      <mets:name>ocrd-ocrmultieval v0.0.1</mets:name>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">OCR-D-OCR-CALAMARI,OCR-D-OCR-TESS</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">EVAL-OCREVALUATION-CALAMARI-TESS</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"backend": "dinglehopper", "format": "csv"}</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
+    </mets:agent>
+    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="recognition/text-recognition">
+      <mets:name>ocrd-ocrmultieval v0.0.1</mets:name>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">OCR-D-OCR-CALAMARI,OCR-D-OCR-TESS</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"backend": "OcrdSegmentEvaluate", "format": "csv"}</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
+    </mets:agent>
   </mets:metsHdr>
   <mets:dmdSec ID="DMDLOG_0000">
     <mets:mdWrap MDTYPE="MODS">
@@ -666,6 +680,136 @@
         <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-CALAMARI/FILE_0021_OCR-D-OCR-CALAMARI.xml"/>
       </mets:file>
     </mets:fileGrp>
+    <mets:fileGrp USE="EVAL-OCREVALUATION-CALAMARI-TESS">
+      <mets:file ID="FILE_0001_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0001_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0002_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0002_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0003_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0003_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0004_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0004_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0005_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0005_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0006_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0006_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0007_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0007_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0008_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0008_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0009_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0009_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0010_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0010_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0011_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0011_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0012_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0012_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0013_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0013_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0014_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0014_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0015_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0015_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0016_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0016_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0017_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0017_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0018_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0018_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0019_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0019_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0020_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0020_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0021_EVAL-OCREVALUATION-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCREVALUATION-CALAMARI-TESS/FILE_0021_EVAL-OCREVALUATION-CALAMARI-TESS.csv"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS">
+      <mets:file ID="FILE_0001_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0001_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0002_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0002_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0003_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0003_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0004_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0004_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0005_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0005_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0006_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0006_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0007_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0007_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0008_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0008_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0009_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0009_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0010_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0010_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0011_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0011_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0012_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0012_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0013_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0013_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0014_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0014_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0015_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0015_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0016_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0016_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0017_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0017_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0018_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0018_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0019_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0019_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0020_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0020_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+      <mets:file ID="FILE_0021_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS" MIMETYPE="text/csv">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS/FILE_0021_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS.csv"/>
+      </mets:file>
+    </mets:fileGrp>
   </mets:fileSec>
   <mets:structMap TYPE="LOGICAL">
     <mets:div ADMID="AMD" CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000000" DMDID="DMDLOG_0000" ID="LOG_0000" LABEL="Ein Welt-Staatenbund als sicherstes Mittel zur Beseitigung des Krieges" ORDERLABEL="Welt-Staatenbund als sicherstes Mittel zur Beseitigung des Krieges" TYPE="monograph">
@@ -689,6 +833,8 @@
         <mets:fptr FILEID="FILE_0001_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0001_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0001_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0001_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0001_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000002" ID="PHYS_0002" ORDER="2" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0002_FULLTEXT"/>
@@ -699,6 +845,8 @@
         <mets:fptr FILEID="FILE_0002_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0002_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0002_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0002_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0002_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000003" ID="PHYS_0003" ORDER="3" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0003_FULLTEXT"/>
@@ -709,6 +857,8 @@
         <mets:fptr FILEID="FILE_0003_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0003_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0003_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0003_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0003_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000004" ID="PHYS_0004" ORDER="4" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0004_FULLTEXT"/>
@@ -719,6 +869,8 @@
         <mets:fptr FILEID="FILE_0004_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0004_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0004_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0004_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0004_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000005" ID="PHYS_0005" ORDER="5" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0005_FULLTEXT"/>
@@ -729,6 +881,8 @@
         <mets:fptr FILEID="FILE_0005_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0005_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0005_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0005_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0005_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000006" ID="PHYS_0006" ORDER="6" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0006_FULLTEXT"/>
@@ -739,6 +893,8 @@
         <mets:fptr FILEID="FILE_0006_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0006_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0006_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0006_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0006_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000007" ID="PHYS_0007" ORDER="7" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0007_FULLTEXT"/>
@@ -749,6 +905,8 @@
         <mets:fptr FILEID="FILE_0007_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0007_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0007_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0007_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0007_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000008" ID="PHYS_0008" ORDER="8" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0008_FULLTEXT"/>
@@ -759,6 +917,8 @@
         <mets:fptr FILEID="FILE_0008_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0008_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0008_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0008_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0008_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000009" ID="PHYS_0009" ORDER="9" ORDERLABEL="3" TYPE="page">
         <mets:fptr FILEID="FILE_0009_FULLTEXT"/>
@@ -769,6 +929,8 @@
         <mets:fptr FILEID="FILE_0009_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0009_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0009_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0009_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0009_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000010" ID="PHYS_0010" ORDER="10" ORDERLABEL="4" TYPE="page">
         <mets:fptr FILEID="FILE_0010_FULLTEXT"/>
@@ -779,6 +941,8 @@
         <mets:fptr FILEID="FILE_0010_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0010_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0010_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0010_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0010_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000011" ID="PHYS_0011" ORDER="11" ORDERLABEL="5" TYPE="page">
         <mets:fptr FILEID="FILE_0011_FULLTEXT"/>
@@ -789,6 +953,8 @@
         <mets:fptr FILEID="FILE_0011_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0011_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0011_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0011_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0011_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000012" ID="PHYS_0012" ORDER="12" ORDERLABEL="6" TYPE="page">
         <mets:fptr FILEID="FILE_0012_FULLTEXT"/>
@@ -799,6 +965,8 @@
         <mets:fptr FILEID="FILE_0012_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0012_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0012_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0012_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0012_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000013" ID="PHYS_0013" ORDER="13" ORDERLABEL="7" TYPE="page">
         <mets:fptr FILEID="FILE_0013_FULLTEXT"/>
@@ -809,6 +977,8 @@
         <mets:fptr FILEID="FILE_0013_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0013_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0013_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0013_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0013_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000014" ID="PHYS_0014" ORDER="14" ORDERLABEL="8" TYPE="page">
         <mets:fptr FILEID="FILE_0014_FULLTEXT"/>
@@ -819,6 +989,8 @@
         <mets:fptr FILEID="FILE_0014_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0014_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0014_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0014_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0014_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000015" ID="PHYS_0015" ORDER="15" ORDERLABEL="9" TYPE="page">
         <mets:fptr FILEID="FILE_0015_FULLTEXT"/>
@@ -829,6 +1001,8 @@
         <mets:fptr FILEID="FILE_0015_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0015_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0015_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0015_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0015_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000016" ID="PHYS_0016" ORDER="16" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0016_FULLTEXT"/>
@@ -839,6 +1013,8 @@
         <mets:fptr FILEID="FILE_0016_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0016_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0016_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0016_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0016_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000017" ID="PHYS_0017" ORDER="17" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0017_FULLTEXT"/>
@@ -849,6 +1025,8 @@
         <mets:fptr FILEID="FILE_0017_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0017_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0017_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0017_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0017_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000018" ID="PHYS_0018" ORDER="18" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0018_FULLTEXT"/>
@@ -859,6 +1037,8 @@
         <mets:fptr FILEID="FILE_0018_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0018_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0018_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0018_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0018_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000019" ID="PHYS_0019" ORDER="19" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0019_FULLTEXT"/>
@@ -869,6 +1049,8 @@
         <mets:fptr FILEID="FILE_0019_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0019_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0019_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0019_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0019_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000020" ID="PHYS_0020" ORDER="20" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0020_FULLTEXT"/>
@@ -879,6 +1061,8 @@
         <mets:fptr FILEID="FILE_0020_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0020_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0020_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0020_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0020_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000021" ID="PHYS_0021" ORDER="21" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0021_FULLTEXT"/>
@@ -889,6 +1073,8 @@
         <mets:fptr FILEID="FILE_0021_OCR-D-OCR-TESS.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0021_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0021_OCR-D-OCR-CALAMARI"/>
+        <mets:fptr FILEID="FILE_0021_EVAL-OCREVALUATION-CALAMARI-TESS"/>
+        <mets:fptr FILEID="FILE_0021_EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS"/>
       </mets:div>
     </mets:div>
   </mets:structMap>

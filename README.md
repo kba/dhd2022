@@ -90,6 +90,15 @@ ocrd-calamari-recognize -I OCR-D-SEG-KRAKEN -O OCR-D-OCR-CALAMARI -P checkpoint_
 ![](screenshots/browse-ocrd-03.png)
 ![](screenshots/browse-ocrd-04.png)
 
+## Demo 5 - Evaluation
+
+Wir haben zu diesem Werk keine Ground Truth, deswegen können wir keine sinnvolle Evaluation machen. Wir können allerdings die Calmari-Erkennung mit der tesseract-Erkennung vergleichen -- **der Aufruf ist nur für als Beispiel gedacht, die Aussagekradft ist gering, die erste Dateigruppe im `-I` Parameter sollte die GT sein.**
+
+```sh
+ocrd-ocrmultieval -I OCR-D-OCR-CALAMARI,OCR-D-OCR-TESS -O EVAL-OCREVALUATION-CALAMARI-TESS -P backend ocrevalUAtion
+ocrd-ocrmultieval -I OCR-D-OCR-CALAMARI,OCR-D-OCR-TESS -O EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS -P backend OcrdSegmentEvaluate
+```
+
 ## Tools
 
 * [OCR-D/core](https://github.com/OCR-D/core)
