@@ -1,2 +1,0 @@
-backend,gt_file,ocr_file,pageId,runtime,CER,WER,FCER,BOW,BOC,layout_regions,layout_lines
-DinglehopperEvalBackend,OCR-D-OCR-CALAMARI/FILE_0003_OCR-D-OCR-CALAMARI.xml,OCR-D-OCR-TESS/FILE_0003_OCR-D-OCR-TESS.xml,PHYS_0003,0.021379470825195312,1.0,1.0,,,,,
