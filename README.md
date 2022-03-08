@@ -92,11 +92,17 @@ ocrd-calamari-recognize -I OCR-D-SEG-KRAKEN -O OCR-D-OCR-CALAMARI -P checkpoint_
 
 ## Demo 5 - Evaluation
 
-Wir haben zu diesem Werk keine Ground Truth, deswegen können wir keine sinnvolle Evaluation machen. Wir können allerdings die Calmari-Erkennung mit der tesseract-Erkennung vergleichen -- **der Aufruf ist nur für als Beispiel gedacht, die Aussagekraft ist gering, die erste Dateigruppe im `-I` Parameter muss die GT sein.**
+Wir haben zu diesem Werk keine Ground Truth, deswegen können wir keine sinnvolle Evaluation machen.
+
+Wir können allerdings die originale OCR (konvertiert von ALTO und als
+`FULLTEXT_PAGE` fileGrp mit im Workspace) mit der calamari/tesseract-Erkennung
+vergleichen. Die Annahme, dass die originale OCR fehlerfrei ist, ist im Allgemeinen falsch.
+
+**Der Aufruf ist nur als Beispiel gedacht, die Aussagekraft ist gering, die erste Dateigruppe im `-I` Parameter muss die GT sein.**
 
 ```sh
-ocrd-ocrmultieval -I OCR-D-OCR-CALAMARI,OCR-D-OCR-TESS -O EVAL-OCREVALUATION-CALAMARI-TESS -P backend ocrevalUAtion
-ocrd-ocrmultieval -I OCR-D-OCR-CALAMARI,OCR-D-OCR-TESS -O EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS -P backend OcrdSegmentEvaluate
+ocrd-ocrmultieval -I FULLTEXT_PAGE,OCR-D-OCR-CALAMARI -O EVAL-DINGLEHOPPER-ORIGINAL-CALAMARI -P backend dinglehopper
+ocrd-ocrmultieval -I FULLTEXT_PAGE,OCR-D-OCR-TESS -O EVAL-OCRDSEGMENTEVALUATE-ORIGINAL-TESS -P backend OcrdSegmentEvaluate
 ```
 
 ## Tools
