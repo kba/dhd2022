@@ -2,8 +2,8 @@
 <pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="FILE_0007_OCR-D-OCR-TESS">
     <pc:Metadata>
         <pc:Creator>OCR-D/core 2.30.0</pc:Creator>
-        <pc:Created>2022-03-07T17:26:12.932595</pc:Created>
-        <pc:LastChange>2022-03-07T17:26:12.932595</pc:LastChange>
+        <pc:Created>2022-03-08T14:25:30.175092</pc:Created>
+        <pc:LastChange>2022-03-08T14:25:30.175092</pc:LastChange>
         <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-tesserocr-recognize">
             <pc:Labels externalModel="ocrd-tool" externalId="parameters">
                 <pc:Label value="False" type="find_tables"/>
@@ -52,21 +52,21 @@
                 <pc:Coords points="199,173 1142,173 1142,277 199,277"/>
                 <pc:Word id="region0000_line0000_word0000">
                     <pc:Coords points="199,180 350,180 350,277 199,277"/>
-                    <pc:TextEquiv conf="0.932303009033203">
+                    <pc:TextEquiv conf="0.932178573608398">
                         <pc:Unicode>Ein</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
                 <pc:Word id="region0000_line0000_word0001">
                     <pc:Coords points="419,173 1142,173 1142,276 419,276"/>
-                    <pc:TextEquiv conf="0.463061943054199">
+                    <pc:TextEquiv conf="0.293183746337891">
                         <pc:Unicode>Welt-Zlaatenbund</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
-                <pc:TextEquiv conf="0.697682476043701">
+                <pc:TextEquiv conf="0.612681159973145">
                     <pc:Unicode>Ein Welt-Zlaatenbund</pc:Unicode>
                 </pc:TextEquiv>
             </pc:TextLine>
-            <pc:TextEquiv conf="0.697682476043701">
+            <pc:TextEquiv conf="0.612681159973145">
                 <pc:Unicode>Ein Welt-Zlaatenbund</pc:Unicode>
             </pc:TextEquiv>
         </pc:TextRegion>
@@ -76,35 +76,35 @@
                 <pc:Coords points="247,351 1094,351 1094,424 247,424"/>
                 <pc:Word id="region0001_line0000_word0000">
                     <pc:Coords points="247,359 310,359 310,415 247,415"/>
-                    <pc:TextEquiv conf="0.896331634521484">
+                    <pc:TextEquiv conf="0.898808975219727">
                         <pc:Unicode>als</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
                 <pc:Word id="region0001_line0000_word0001">
                     <pc:Coords points="350,356 529,356 529,424 350,424"/>
-                    <pc:TextEquiv conf="0.85378044128418">
+                    <pc:TextEquiv conf="0.885211486816406">
                         <pc:Unicode>ſiherſtes</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
                 <pc:Word id="region0001_line0000_word0002">
                     <pc:Coords points="569,355 707,355 707,423 569,423"/>
-                    <pc:TextEquiv conf="0.965454254150391">
+                    <pc:TextEquiv conf="0.964592132568359">
                         <pc:Unicode>Mittel</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
                 <pc:Word id="region0001_line0000_word0003">
                     <pc:Coords points="745,367 807,367 807,424 745,424"/>
-                    <pc:TextEquiv conf="0.928693084716797">
+                    <pc:TextEquiv conf="0.93425910949707">
                         <pc:Unicode>zur</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
                 <pc:Word id="region0001_line0000_word0004">
                     <pc:Coords points="847,351 1094,351 1094,423 847,423"/>
-                    <pc:TextEquiv conf="0.503429222106934">
+                    <pc:TextEquiv conf="0.42259464263916">
                         <pc:Unicode>Beſeitigung</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
-                <pc:TextEquiv conf="0.829537727355957">
+                <pc:TextEquiv conf="0.821093269348145">
                     <pc:Unicode>als ſiherſtes Mittel zur Beſeitigung</pc:Unicode>
                 </pc:TextEquiv>
             </pc:TextLine>
@@ -112,21 +112,21 @@
                 <pc:Coords points="529,480 818,480 818,550 529,550"/>
                 <pc:Word id="region0001_line0001_word0000">
                     <pc:Coords points="529,482 597,482 597,539 529,539"/>
-                    <pc:TextEquiv conf="0.957391967773437">
+                    <pc:TextEquiv conf="0.9539404296875">
                         <pc:Unicode>des</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
                 <pc:Word id="region0001_line0001_word0001">
                     <pc:Coords points="637,480 818,480 818,550 637,550"/>
-                    <pc:TextEquiv conf="0.95090705871582">
+                    <pc:TextEquiv conf="0.944798431396484">
                         <pc:Unicode>Krieges.</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
-                <pc:TextEquiv conf="0.954149513244629">
+                <pc:TextEquiv conf="0.949369430541992">
                     <pc:Unicode>des Krieges.</pc:Unicode>
                 </pc:TextEquiv>
             </pc:TextLine>
-            <pc:TextEquiv conf="0.891843620300293">
+            <pc:TextEquiv conf="0.885231349945068">
                 <pc:Unicode>als ſiherſtes Mittel zur Beſeitigung
 des Krieges.</pc:Unicode>
             </pc:TextEquiv>
@@ -137,15 +137,15 @@ des Krieges.</pc:Unicode>
                 <pc:Coords points="643,869 704,869 704,897 643,897"/>
                 <pc:Word id="region0002_line0000_word0000">
                     <pc:Coords points="643,869 704,869 704,897 643,897"/>
-                    <pc:TextEquiv conf="0.967106018066406">
+                    <pc:TextEquiv conf="0.968057327270508">
                         <pc:Unicode>Von</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
-                <pc:TextEquiv conf="0.967106018066406">
+                <pc:TextEquiv conf="0.968057327270508">
                     <pc:Unicode>Von</pc:Unicode>
                 </pc:TextEquiv>
             </pc:TextLine>
-            <pc:TextEquiv conf="0.967106018066406">
+            <pc:TextEquiv conf="0.968057327270508">
                 <pc:Unicode>Von</pc:Unicode>
             </pc:TextEquiv>
         </pc:TextRegion>
@@ -155,34 +155,34 @@ des Krieges.</pc:Unicode>
                 <pc:Coords points="324,922 1015,922 1015,981 324,981"/>
                 <pc:Word id="region0003_line0000_word0000">
                     <pc:Coords points="324,925 490,925 490,975 324,975"/>
-                    <pc:TextEquiv conf="0.928234100341797">
+                    <pc:TextEquiv conf="0.928784332275391">
                         <pc:Unicode>Eduard</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
                 <pc:Word id="region0003_line0000_word0001">
                     <pc:Coords points="519,923 789,923 789,979 519,979"/>
-                    <pc:TextEquiv conf="0.271853790283203">
-                        <pc:Unicode>Loewenthal,</pc:Unicode>
+                    <pc:TextEquiv conf="0.135794067382812">
+                        <pc:Unicode>KLoewenthal,</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
                 <pc:Word id="region0003_line0000_word0002">
                     <pc:Coords points="819,922 887,922 887,969 819,969"/>
-                    <pc:TextEquiv conf="0.953690490722656">
+                    <pc:TextEquiv conf="0.956763381958008">
                         <pc:Unicode>Dr.</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
                 <pc:Word id="region0003_line0000_word0003">
                     <pc:Coords points="917,922 1015,922 1015,981 917,981"/>
-                    <pc:TextEquiv conf="0.96787239074707">
+                    <pc:TextEquiv conf="0.967834701538086">
                         <pc:Unicode>phil,</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
-                <pc:TextEquiv conf="0.780412693023682">
-                    <pc:Unicode>Eduard Loewenthal, Dr. phil,</pc:Unicode>
+                <pc:TextEquiv conf="0.747294120788574">
+                    <pc:Unicode>Eduard KLoewenthal, Dr. phil,</pc:Unicode>
                 </pc:TextEquiv>
             </pc:TextLine>
-            <pc:TextEquiv conf="0.780412693023682">
-                <pc:Unicode>Eduard Loewenthal, Dr. phil,</pc:Unicode>
+            <pc:TextEquiv conf="0.747294120788574">
+                <pc:Unicode>Eduard KLoewenthal, Dr. phil,</pc:Unicode>
             </pc:TextEquiv>
         </pc:TextRegion>
         <pc:TextRegion id="region0004" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
@@ -191,40 +191,40 @@ des Krieges.</pc:Unicode>
                 <pc:Coords points="365,1247 978,1247 978,1274 365,1274"/>
                 <pc:Word id="region0004_line0000_word0000">
                     <pc:Coords points="365,1262 467,1262 467,1264 365,1264"/>
-                    <pc:TextEquiv conf="0.439312286376953">
+                    <pc:TextEquiv conf="0.469574661254883">
                         <pc:Unicode>——</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
                 <pc:Word id="region0004_line0000_word0001">
                     <pc:Coords points="575,1247 486,1247 486,1274 575,1274"/>
-                    <pc:TextEquiv conf="0.059845275878906">
+                    <pc:TextEquiv conf="0.081175155639648">
                         <pc:Unicode>———</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
                 <pc:Word id="region0004_line0000_word0002">
                     <pc:Coords points="585,1250 601,1250 601,1272 585,1272"/>
-                    <pc:TextEquiv conf="0.059845275878906">
+                    <pc:TextEquiv conf="0.081175155639648">
                         <pc:Unicode>+</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
                 <pc:Word id="region0004_line0000_word0003">
-                    <pc:Coords points="633,1247 730,1247 730,1273 633,1273"/>
-                    <pc:TextEquiv conf="0.207716217041016">
-                        <pc:Unicode>LME</pc:Unicode>
+                    <pc:Coords points="619,1247 730,1247 730,1273 619,1273"/>
+                    <pc:TextEquiv conf="0.192081451416016">
+                        <pc:Unicode>BLE</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
                 <pc:Word id="region0004_line0000_word0004">
                     <pc:Coords points="741,1248 978,1248 978,1272 741,1272"/>
-                    <pc:TextEquiv conf="0.263144989013672">
+                    <pc:TextEquiv conf="0.241943969726563">
                         <pc:Unicode>4e</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
-                <pc:TextEquiv conf="0.205972808837891">
-                    <pc:Unicode>—— ——— + LME 4e</pc:Unicode>
+                <pc:TextEquiv conf="0.213190078735352">
+                    <pc:Unicode>—— ——— + BLE 4e</pc:Unicode>
                 </pc:TextEquiv>
             </pc:TextLine>
-            <pc:TextEquiv conf="0.205972808837891">
-                <pc:Unicode>—— ——— + LME 4e</pc:Unicode>
+            <pc:TextEquiv conf="0.213190078735352">
+                <pc:Unicode>—— ——— + BLE 4e</pc:Unicode>
             </pc:TextEquiv>
         </pc:TextRegion>
         <pc:TextRegion id="region0005" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
@@ -233,11 +233,11 @@ des Krieges.</pc:Unicode>
                 <pc:Coords points="577,1542 776,1542 776,1592 577,1592"/>
                 <pc:Word id="region0005_line0000_word0000">
                     <pc:Coords points="577,1542 776,1542 776,1592 577,1592"/>
-                    <pc:TextEquiv conf="0.256297225952148">
+                    <pc:TextEquiv conf="0.402936096191406">
                         <pc:Unicode>Wexrlin.</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
-                <pc:TextEquiv conf="0.256297225952148">
+                <pc:TextEquiv conf="0.402936096191406">
                     <pc:Unicode>Wexrlin.</pc:Unicode>
                 </pc:TextEquiv>
             </pc:TextLine>
@@ -245,29 +245,29 @@ des Krieges.</pc:Unicode>
                 <pc:Coords points="458,1610 884,1610 884,1660 458,1660"/>
                 <pc:Word id="region0005_line0001_word0000">
                     <pc:Coords points="458,1610 884,1610 884,1660 458,1660"/>
-                    <pc:TextEquiv conf="0.044064788818359">
-                        <pc:Unicode>Reform-WVYerlag.</pc:Unicode>
+                    <pc:TextEquiv conf="0.242185592651367">
+                        <pc:Unicode>Reform-VYerlag.</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
-                <pc:TextEquiv conf="0.044064788818359">
-                    <pc:Unicode>Reform-WVYerlag.</pc:Unicode>
+                <pc:TextEquiv conf="0.242185592651367">
+                    <pc:Unicode>Reform-VYerlag.</pc:Unicode>
                 </pc:TextEquiv>
             </pc:TextLine>
             <pc:TextLine id="region0005_line0002">
                 <pc:Coords points="604,1686 737,1686 737,1721 604,1721"/>
                 <pc:Word id="region0005_line0002_word0000">
                     <pc:Coords points="604,1686 737,1686 737,1721 604,1721"/>
-                    <pc:TextEquiv conf="0.856703414916992">
+                    <pc:TextEquiv conf="0.861807556152344">
                         <pc:Unicode>1896,</pc:Unicode>
                     </pc:TextEquiv>
                 </pc:Word>
-                <pc:TextEquiv conf="0.856703414916992">
+                <pc:TextEquiv conf="0.861807556152344">
                     <pc:Unicode>1896,</pc:Unicode>
                 </pc:TextEquiv>
             </pc:TextLine>
-            <pc:TextEquiv conf="0.3856884765625">
+            <pc:TextEquiv conf="0.502309748331706">
                 <pc:Unicode>Wexrlin.
-Reform-WVYerlag.
+Reform-VYerlag.
 1896,</pc:Unicode>
             </pc:TextEquiv>
         </pc:TextRegion>

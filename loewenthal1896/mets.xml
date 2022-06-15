@@ -5,6 +5,13 @@
       <mets:name>Kitodo - kitodo-ugh-2.1.3-kitodo-ugh-2.1.1-11-g4b06eaa - 30−July−2019</mets:name>
       <mets:note>Kitodo</mets:note>
     </mets:agent>
+    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="layout/segmentation/region">
+      <mets:name>ocrd-tesserocr-recognize v0.13.6 (tesseract 5.0.1)</mets:name>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">DEFAULT</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">OCR-D-OCR-TESS</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"find_tables": false, "textequiv_level": "word", "segmentation_level": "region", "model": "Fraktur", "dpi": 0, "padding": 0, "overwrite_segments": false, "overwrite_text": true, "shrink_polygons": false, "block_polygons": false, "find_staves": false, "sparse_text": false, "raw_lines": false, "char_whitelist": "", "char_blacklist": "", "char_unblacklist": "", "tesseract_parameters": {}, "xpath_parameters": {}, "xpath_model": {}, "auto_model": false, "oem": "DEFAULT"}</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
+    </mets:agent>
     <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="preprocessing/optimization/binarization">
       <mets:name>ocrd-cis-ocropy-binarize v0.1.5</mets:name>
       <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">DEFAULT</mets:note>
@@ -19,67 +26,11 @@
       <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"text_direction": "horizontal-lr", "maxcolseps": 2, "scale": 0, "black_colseps": false, "remove_hlines": true, "blla_model": "blla.mlmodel", "device": "cpu", "use_legacy": false}</mets:note>
       <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
     </mets:agent>
-    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="layout/segmentation/region">
-      <mets:name>ocrd-tesserocr-recognize v0.13.6 (tesseract 5.0.1)</mets:name>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">DEFAULT</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">OCR-D-OCR</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"find_tables": false, "textequiv_level": "word", "segmentation_level": "region", "dpi": 0, "padding": 0, "overwrite_segments": false, "overwrite_text": true, "shrink_polygons": false, "block_polygons": false, "find_staves": false, "sparse_text": false, "raw_lines": false, "char_whitelist": "", "char_blacklist": "", "char_unblacklist": "", "tesseract_parameters": {}, "xpath_parameters": {}, "xpath_model": {}, "auto_model": false, "oem": "DEFAULT"}</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
-    </mets:agent>
-    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="layout/segmentation/region">
-      <mets:name>ocrd-tesserocr-recognize v0.13.6 (tesseract 5.0.1)</mets:name>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">DEFAULT</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">OCR-D-OCR</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"find_tables": false, "textequiv_level": "word", "segmentation_level": "region", "model": "Fraktur", "dpi": 0, "padding": 0, "overwrite_segments": false, "overwrite_text": true, "shrink_polygons": false, "block_polygons": false, "find_staves": false, "sparse_text": false, "raw_lines": false, "char_whitelist": "", "char_blacklist": "", "char_unblacklist": "", "tesseract_parameters": {}, "xpath_parameters": {}, "xpath_model": {}, "auto_model": false, "oem": "DEFAULT"}</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
-    </mets:agent>
-    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="layout/segmentation/region">
-      <mets:name>ocrd-tesserocr-recognize v0.13.6 (tesseract 5.0.1)</mets:name>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">DEFAULT</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">OCR-D-OCR-TESS</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"find_tables": false, "textequiv_level": "word", "segmentation_level": "region", "model": "Fraktur", "dpi": 0, "padding": 0, "overwrite_segments": false, "overwrite_text": true, "shrink_polygons": false, "block_polygons": false, "find_staves": false, "sparse_text": false, "raw_lines": false, "char_whitelist": "", "char_blacklist": "", "char_unblacklist": "", "tesseract_parameters": {}, "xpath_parameters": {}, "xpath_model": {}, "auto_model": false, "oem": "DEFAULT"}</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
-    </mets:agent>
     <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="recognition/text-recognition">
       <mets:name>ocrd-calamari-recognize v1.0.3 (calamari 1.0.5, tensorflow 2.5.0)</mets:name>
       <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">OCR-D-SEG-KRAKEN</mets:note>
       <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">OCR-D-OCR-CALAMARI</mets:note>
       <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"checkpoint_dir": "qurator-gt4histocr-1.0", "voter": "confidence_voter_default_ctc", "textequiv_level": "line", "glyph_conf_cutoff": 0.001}</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
-    </mets:agent>
-    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="recognition/text-recognition">
-      <mets:name>ocrd-ocrmultieval v0.0.1</mets:name>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">OCR-D-OCR-CALAMARI,OCR-D-OCR-TESS</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">EVAL-OCREVALUATION-CALAMARI-TESS</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"backend": "dinglehopper", "format": "csv"}</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
-    </mets:agent>
-    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="recognition/text-recognition">
-      <mets:name>ocrd-ocrmultieval v0.0.1</mets:name>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">OCR-D-OCR-CALAMARI,OCR-D-OCR-TESS</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">EVAL-OCRDSEGMENTEVALUATE-CALAMARI-TESS</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"backend": "OcrdSegmentEvaluate", "format": "csv"}</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
-    </mets:agent>
-    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="recognition/text-recognition">
-      <mets:name>ocrd-ocrmultieval v0.0.1</mets:name>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">FULLTEXT_PAGE,OCR-D-OCR-TESS</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">EVAL-OCRDSEGMENTEVALUATE-FULLTEXT-TESS</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"backend": "OcrdSegmentEvaluate", "format": "csv"}</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
-    </mets:agent>
-    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="recognition/text-recognition">
-      <mets:name>ocrd-ocrmultieval v0.0.1</mets:name>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">FULLTEXT_PAGE,OCR-D-OCR-TESS</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">EVAL-OCREVALUATION-FULLTEXT-TESS</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"backend": "ocrevalUAtion", "format": "csv"}</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
-    </mets:agent>
-    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="recognition/text-recognition">
-      <mets:name>ocrd-ocrmultieval v0.0.1</mets:name>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">FULLTEXT_PAGE,OCR-D-OCR-TESS</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">EVAL-DINGLEHOPPER-FULLTEXT-TESS</mets:note>
-      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"backend": "dinglehopper", "format": "csv"}</mets:note>
       <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
     </mets:agent>
   </mets:metsHdr>
@@ -187,67 +138,132 @@
   <mets:fileSec>
     <mets:fileGrp USE="FULLTEXT">
       <mets:file ID="FILE_0001_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0001_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000001.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0002_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0002_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000002.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0003_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0003_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000003.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0004_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0004_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000004.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0005_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0005_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000005.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0006_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0006_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000006.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0007_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0007_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000007.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0008_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0008_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000008.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0009_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0009_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000009.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0010_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0010_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000010.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0011_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0011_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000011.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0012_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0012_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000012.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0013_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0013_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000013.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0014_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0014_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000014.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0015_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0015_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000015.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0016_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0016_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000016.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0017_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0017_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000017.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0018_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0018_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000018.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0019_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0019_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000019.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0020_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0020_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000020.ocr.xml"/>
       </mets:file>
       <mets:file ID="FILE_0021_FULLTEXT" MIMETYPE="text/xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="FULLTEXT/FILE_0021_FULLTEXT" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000021.ocr.xml"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="THUMBS">
+      <mets:file ID="FILE_0001_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000001/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0002_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000002/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0003_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000003/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0004_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000004/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0005_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000005/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0006_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000006/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0007_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000007/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0008_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000008/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0009_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000009/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0010_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000010/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0011_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000011/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0012_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000012/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0013_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000013/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0014_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000014/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0015_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000015/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0016_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000016/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0017_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000017/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0018_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000018/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0019_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000019/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0020_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000020/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0021_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000021/full/150,/0/default.png"/>
       </mets:file>
     </mets:fileGrp>
     <mets:fileGrp USE="DEFAULT">
@@ -313,6 +329,134 @@
       </mets:file>
       <mets:file ID="FILE_0021_DEFAULT" MIMETYPE="image/jpg">
         <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="DEFAULT/FILE_0021_DEFAULT.jpg" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="OCR-D-OCR-TESS">
+      <mets:file ID="FILE_0001_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0001_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0001_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0001_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0002_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0002_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0002_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0002_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0003_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0003_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0003_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0003_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0004_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0004_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0004_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0004_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0005_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0005_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0005_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0005_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0006_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0006_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0006_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0006_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0007_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0007_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0007_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0007_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0008_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0008_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0008_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0008_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0009_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0009_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0009_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0009_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0010_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0010_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0010_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0010_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0011_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0011_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0011_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0011_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0012_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0012_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0012_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0012_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0013_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0013_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0013_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0013_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0014_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0014_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0014_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0014_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0015_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0015_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0015_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0015_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0016_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0016_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0016_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0016_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0017_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0017_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0017_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0017_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0018_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0018_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0018_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0018_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0019_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0019_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0019_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0019_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0020_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0020_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0020_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0020_OCR-D-OCR-TESS.xml"/>
+      </mets:file>
+      <mets:file ID="FILE_0021_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0021_OCR-D-OCR-TESS.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0021_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0021_OCR-D-OCR-TESS.xml"/>
       </mets:file>
     </mets:fileGrp>
     <mets:fileGrp USE="OCR-D-BIN">
@@ -508,134 +652,6 @@
         <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-SEG-KRAKEN/FILE_0021_OCR-D-SEG-KRAKEN.xml"/>
       </mets:file>
     </mets:fileGrp>
-    <mets:fileGrp USE="OCR-D-OCR-TESS">
-      <mets:file ID="FILE_0001_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0001_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0001_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0001_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0002_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0002_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0002_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0002_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0003_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0003_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0003_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0003_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0004_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0004_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0004_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0004_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0005_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0005_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0005_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0005_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0006_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0006_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0006_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0006_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0007_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0007_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0007_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0007_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0008_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0008_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0008_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0008_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0009_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0009_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0009_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0009_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0010_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0010_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0010_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0010_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0011_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0011_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0011_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0011_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0012_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0012_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0012_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0012_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0013_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0013_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0013_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0013_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0014_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0014_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0014_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0014_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0015_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0015_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0015_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0015_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0016_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0016_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0016_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0016_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0017_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0017_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0017_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0017_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0018_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0018_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0018_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0018_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0019_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0019_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0019_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0019_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0020_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0020_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0020_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0020_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-      <mets:file ID="FILE_0021_OCR-D-OCR-TESS.IMG-BIN" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0021_OCR-D-OCR-TESS.IMG-BIN.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0021_OCR-D-OCR-TESS" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-TESS/FILE_0021_OCR-D-OCR-TESS.xml"/>
-      </mets:file>
-    </mets:fileGrp>
     <mets:fileGrp USE="OCR-D-OCR-CALAMARI">
       <mets:file ID="FILE_0001_OCR-D-OCR-CALAMARI" MIMETYPE="application/vnd.prima.page+xml">
         <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-CALAMARI/FILE_0001_OCR-D-OCR-CALAMARI.xml"/>
@@ -701,71 +717,6 @@
         <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-CALAMARI/FILE_0021_OCR-D-OCR-CALAMARI.xml"/>
       </mets:file>
     </mets:fileGrp>
-    <mets:fileGrp USE="FULLTEXT_PAGE">
-      <mets:file ID="f0001-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0001_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0002-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0002_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0003-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0003_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0004-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0004_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0005-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0005_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0006-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0006_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0007-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0007_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0008-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0008_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0009-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0009_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0010-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0010_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0011-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0011_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0012-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0012_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0013-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0013_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0014-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0014_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0015-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0015_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0016-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0016_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0017-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0017_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0018-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0018_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0019-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0019_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0020-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0020_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-      <mets:file ID="f0021-fulltext" MIMETYPE="application/vnd.prima.page+xml">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="FULLTEXT_PAGE/FILE_0021_FULLTEXT_PAGE.xml"/>
-      </mets:file>
-    </mets:fileGrp>
   </mets:fileSec>
   <mets:structMap TYPE="LOGICAL">
     <mets:div ADMID="AMD" CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000000" DMDID="DMDLOG_0000" ID="LOG_0000" LABEL="Ein Welt-Staatenbund als sicherstes Mittel zur Beseitigung des Krieges" ORDERLABEL="Welt-Staatenbund als sicherstes Mittel zur Beseitigung des Krieges" TYPE="monograph">
@@ -782,234 +733,234 @@
     <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000000" ID="PHYS_0000" TYPE="physSequence">
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000001" ID="PHYS_0001" ORDER="1" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0001_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0001_THUMBS"/>
         <mets:fptr FILEID="FILE_0001_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0001_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0001_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0001_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0001_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0001_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0001_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0001_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0001_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0001-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000002" ID="PHYS_0002" ORDER="2" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0002_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0002_THUMBS"/>
         <mets:fptr FILEID="FILE_0002_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0002_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0002_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0002_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0002_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0002_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0002_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0002_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0002_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0002-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000003" ID="PHYS_0003" ORDER="3" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0003_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0003_THUMBS"/>
         <mets:fptr FILEID="FILE_0003_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0003_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0003_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0003_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0003_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0003_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0003_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0003_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0003_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0003-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000004" ID="PHYS_0004" ORDER="4" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0004_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0004_THUMBS"/>
         <mets:fptr FILEID="FILE_0004_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0004_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0004_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0004_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0004_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0004_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0004_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0004_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0004_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0004-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000005" ID="PHYS_0005" ORDER="5" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0005_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0005_THUMBS"/>
         <mets:fptr FILEID="FILE_0005_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0005_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0005_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0005_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0005_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0005_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0005_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0005_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0005_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0005-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000006" ID="PHYS_0006" ORDER="6" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0006_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0006_THUMBS"/>
         <mets:fptr FILEID="FILE_0006_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0006_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0006_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0006_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0006_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0006_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0006_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0006_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0006_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0006-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000007" ID="PHYS_0007" ORDER="7" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0007_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0007_THUMBS"/>
         <mets:fptr FILEID="FILE_0007_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0007_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0007_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0007_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0007_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0007_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0007_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0007_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0007_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0007-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000008" ID="PHYS_0008" ORDER="8" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0008_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0008_THUMBS"/>
         <mets:fptr FILEID="FILE_0008_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0008_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0008_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0008_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0008_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0008_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0008_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0008_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0008_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0008-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000009" ID="PHYS_0009" ORDER="9" ORDERLABEL="3" TYPE="page">
         <mets:fptr FILEID="FILE_0009_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0009_THUMBS"/>
         <mets:fptr FILEID="FILE_0009_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0009_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0009_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0009_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0009_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0009_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0009_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0009_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0009_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0009-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000010" ID="PHYS_0010" ORDER="10" ORDERLABEL="4" TYPE="page">
         <mets:fptr FILEID="FILE_0010_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0010_THUMBS"/>
         <mets:fptr FILEID="FILE_0010_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0010_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0010_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0010_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0010_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0010_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0010_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0010_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0010_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0010-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000011" ID="PHYS_0011" ORDER="11" ORDERLABEL="5" TYPE="page">
         <mets:fptr FILEID="FILE_0011_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0011_THUMBS"/>
         <mets:fptr FILEID="FILE_0011_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0011_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0011_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0011_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0011_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0011_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0011_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0011_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0011_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0011-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000012" ID="PHYS_0012" ORDER="12" ORDERLABEL="6" TYPE="page">
         <mets:fptr FILEID="FILE_0012_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0012_THUMBS"/>
         <mets:fptr FILEID="FILE_0012_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0012_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0012_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0012_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0012_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0012_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0012_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0012_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0012_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0012-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000013" ID="PHYS_0013" ORDER="13" ORDERLABEL="7" TYPE="page">
         <mets:fptr FILEID="FILE_0013_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0013_THUMBS"/>
         <mets:fptr FILEID="FILE_0013_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0013_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0013_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0013_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0013_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0013_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0013_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0013_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0013_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0013-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000014" ID="PHYS_0014" ORDER="14" ORDERLABEL="8" TYPE="page">
         <mets:fptr FILEID="FILE_0014_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0014_THUMBS"/>
         <mets:fptr FILEID="FILE_0014_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0014_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0014_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0014_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0014_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0014_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0014_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0014_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0014_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0014-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000015" ID="PHYS_0015" ORDER="15" ORDERLABEL="9" TYPE="page">
         <mets:fptr FILEID="FILE_0015_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0015_THUMBS"/>
         <mets:fptr FILEID="FILE_0015_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0015_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0015_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0015_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0015_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0015_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0015_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0015_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0015_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0015-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000016" ID="PHYS_0016" ORDER="16" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0016_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0016_THUMBS"/>
         <mets:fptr FILEID="FILE_0016_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0016_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0016_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0016_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0016_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0016_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0016_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0016_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0016_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0016-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000017" ID="PHYS_0017" ORDER="17" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0017_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0017_THUMBS"/>
         <mets:fptr FILEID="FILE_0017_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0017_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0017_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0017_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0017_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0017_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0017_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0017_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0017_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0017-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000018" ID="PHYS_0018" ORDER="18" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0018_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0018_THUMBS"/>
         <mets:fptr FILEID="FILE_0018_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0018_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0018_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0018_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0018_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0018_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0018_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0018_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0018_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0018-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000019" ID="PHYS_0019" ORDER="19" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0019_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0019_THUMBS"/>
         <mets:fptr FILEID="FILE_0019_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0019_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0019_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0019_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0019_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0019_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0019_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0019_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0019_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0019-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000020" ID="PHYS_0020" ORDER="20" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0020_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0020_THUMBS"/>
         <mets:fptr FILEID="FILE_0020_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0020_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0020_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0020_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0020_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0020_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0020_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0020_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0020_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0020-fulltext"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000021" ID="PHYS_0021" ORDER="21" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0021_FULLTEXT"/>
+        <mets:fptr FILEID="FILE_0021_THUMBS"/>
         <mets:fptr FILEID="FILE_0021_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0021_OCR-D-OCR-TESS.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0021_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0021_OCR-D-BIN.IMG-BIN"/>
         <mets:fptr FILEID="FILE_0021_OCR-D-BIN"/>
         <mets:fptr FILEID="FILE_0021_OCR-D-SEG-KRAKEN"/>
-        <mets:fptr FILEID="FILE_0021_OCR-D-OCR-TESS.IMG-BIN"/>
-        <mets:fptr FILEID="FILE_0021_OCR-D-OCR-TESS"/>
         <mets:fptr FILEID="FILE_0021_OCR-D-OCR-CALAMARI"/>
-        <mets:fptr FILEID="f0021-fulltext"/>
       </mets:div>
     </mets:div>
   </mets:structMap>

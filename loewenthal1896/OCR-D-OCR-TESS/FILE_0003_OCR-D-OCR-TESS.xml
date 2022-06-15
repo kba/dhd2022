@@ -2,8 +2,8 @@
 <pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="FILE_0003_OCR-D-OCR-TESS">
     <pc:Metadata>
         <pc:Creator>OCR-D/core 2.30.0</pc:Creator>
-        <pc:Created>2022-03-07T17:26:08.440119</pc:Created>
-        <pc:LastChange>2022-03-07T17:26:08.440119</pc:LastChange>
+        <pc:Created>2022-03-08T14:25:25.883237</pc:Created>
+        <pc:LastChange>2022-03-08T14:25:25.883237</pc:LastChange>
         <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-tesserocr-recognize">
             <pc:Labels externalModel="ocrd-tool" externalId="parameters">
                 <pc:Label value="False" type="find_tables"/>
@@ -38,17 +38,11 @@
         <pc:AlternativeImage filename="OCR-D-OCR-TESS/FILE_0003_OCR-D-OCR-TESS.IMG-BIN.png" comments=",binarized,clipped"/>
         <pc:ReadingOrder>
             <pc:OrderedGroup id="reading-order">
-                <pc:RegionRefIndexed index="2" regionRef="region0002"/>
+                <pc:RegionRefIndexed index="0" regionRef="region0000"/>
             </pc:OrderedGroup>
         </pc:ReadingOrder>
-        <pc:ImageRegion id="region0002" orientation="1.662863021014203">
-            <pc:Coords points="1350,0 1461,0 1461,2124 1350,2124"/>
+        <pc:ImageRegion id="region0000" orientation="0.">
+            <pc:Coords points="0,0 1461,0 1461,2124 0,2124"/>
         </pc:ImageRegion>
-        <pc:SeparatorRegion id="region0000">
-            <pc:Coords points="4,101 52,101 52,931 4,931"/>
-        </pc:SeparatorRegion>
-        <pc:SeparatorRegion id="region0001">
-            <pc:Coords points="9,1266 57,1266 57,2022 9,2022"/>
-        </pc:SeparatorRegion>
     </pc:Page>
 </pc:PcGts>
