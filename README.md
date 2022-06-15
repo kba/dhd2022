@@ -8,7 +8,7 @@
 Wir laden ("klonen") das METS-XML für das Werk
 
 ```sh
-ocrd workspace clone -d loewenthal1896 https://content.staatsbibliothek-berlin.de/dc/PPN680203753.mets.xml
+ocrd workspace -d loewenthal1896 clone https://content.staatsbibliothek-berlin.de/dc/PPN680203753.mets.xml
 ```
 
 Wechseln wir in das Verzeichnis und listen alle im METS verzeichneten Dateien:
